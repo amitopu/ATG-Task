@@ -1,0 +1,32 @@
+.bannerText {
+    font-family: "IBM Plex Sans", Sans-serif;
+    color: #ffffff;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+
+.styleBannerHeading {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+.styleBannerGradient {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.45) 0%,
+        rgba(0, 0, 0, 0.6) 100%
+    );
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.styleSecondaryHeading {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+}
