@@ -1,12 +1,12 @@
 import "./App.css";
-import BannerLarge from "./Shared/BannerLarge/BannerLarge";
+import Banner from "./Shared/Banner/Banner";
 import NavigationBar from "./Shared/NavigationBar/NavigationBar";
 
 function App() {
     return (
         <div>
             <NavigationBar></NavigationBar>
-            <BannerLarge></BannerLarge>
+            <Banner></Banner>
         </div>
     );
 }

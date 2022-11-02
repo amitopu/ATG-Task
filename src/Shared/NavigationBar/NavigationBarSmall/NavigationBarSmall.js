@@ -3,7 +3,7 @@ import React from "react";
 const NavigationBarSmall = () => {
     return (
         <nav
-            className="container-fluid d-flex d-md-none justify-content-between align-items-center position-absolute t-0 l-0 z-10"
+            className="container-fluid d-flex d-md-none justify-content-between align-items-center position-absolute top-0 start-0"
             style={{ height: "72px", zIndex: "10" }}
         >
             <div>
@@ -14,6 +14,7 @@ const NavigationBarSmall = () => {
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
+                        style={{ marginLeft: "10px" }}
                     >
                         <g id="icon/navigation/arrow_back_24px">
                             <path
@@ -33,6 +34,7 @@ const NavigationBarSmall = () => {
                         fontWeight: "500",
                         height: "28px",
                         width: "80px",
+                        marginRight: "10px",
                     }}
                     className="bg-transparent text-white border border-1 rounded"
                 >
