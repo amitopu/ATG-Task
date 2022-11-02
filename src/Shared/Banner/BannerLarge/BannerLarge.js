@@ -10,11 +10,13 @@ const BannerLarge = () => {
                 alt="banner with a laptop screen"
             ></img>
             <div className="styleBannerGradient h-100 w-100 top-0 start-0 position-absolute"></div>
-            <div className="bannerText text-white position-absolute">
-                <h1 className="styleBannerHeading">Computer Engineering</h1>
-                <p className="styleSecondaryHeading">
-                    142,765 Computer Engineers follow this
-                </p>
+            <div className="container text-white position-relative">
+                <div className="contianer mx-auto bannerText position-absolute">
+                    <h1 className="styleBannerHeading">Computer Engineering</h1>
+                    <p className="styleSecondaryHeading">
+                        142,765 Computer Engineers follow this
+                    </p>
+                </div>
             </div>
         </div>
     );
