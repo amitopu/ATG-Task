@@ -1,0 +1,21 @@
+.searchFormStyle {
+    height: 42px;
+    border: 0px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 21px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 4px;
+    padding-left: 60px;
+    font-size: 14px;
+    font-family: "IBM Plex Sans", Sans-serif;
+    font-weight: 500;
+    color: #5c5c5c;
+}
+
+.styleSearchIcon {
+    margin-left: 25px;
+    margin-top: 5px;
+    position: absolute;
+}
